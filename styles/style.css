@@ -1,9 +1,12 @@
+/* General styles*/
 body{
     padding-right: 70px;
     padding-left: 70px;
     color: #515151;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+/*Header*/
 header{ 
     display: flex;
     justify-content: space-between;
@@ -21,13 +24,11 @@ header img{
     grid-template-columns: 4fr 1fr;
     height: 100%
 }
-
 #SearchBar input{   
     height: 100%;
     padding: 0px;
     height: 30px;
 }
-
 button{
     float: right; 
     height: 34px;
@@ -36,6 +37,8 @@ button{
 #SearchBtn{
     border-width: 2px;
 }
+
+/*Video section*/
 iframe {
      padding-top: 50px;
      display: block;
@@ -43,7 +46,6 @@ iframe {
      width: 800px;
      height: 600px;
 }
-
 .socialButtons{
      margin-left: 30px;
      margin-top: 10px;
@@ -67,11 +69,12 @@ iframe {
      display: grid;
      grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
  }
-
 #tumb{
     display: grid;
     grid-template-columns: 70% 30%;
 }
+
+/*Aside*/
 aside{
     float: right;
     width: 100%;
@@ -97,11 +100,12 @@ aside div img{
     height: 86px;
     cursor:pointer;
 }
+
+/*Comments section*/
 .comments{
     display: flex;
     flex-direction: row;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #515151;
     font-size: 15px;
     
 }
@@ -118,4 +122,3 @@ section img{
     display: flex;
     flex-direction: row;
 }
-
