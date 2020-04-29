@@ -114,7 +114,7 @@ section img{
     height: 40px;    
     cursor: pointer;
 }
-#likes{
+.likes{
     display: flex;
     flex-direction: row;
 }
