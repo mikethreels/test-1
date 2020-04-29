@@ -97,4 +97,25 @@ aside div img{
     height: 86px;
     cursor:pointer;
 }
+.comments{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #515151;
+    font-size: 15px;
+    
+}
+#ComentFromUser{
+    display: flex;
+    flex-direction: column;
+}
+section img{
+    width: 40px;
+    height: 40px;    
+    cursor: pointer;
+}
+#likes{
+    display: flex;
+    flex-direction: row;
+}
 
