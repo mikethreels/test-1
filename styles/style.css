@@ -42,4 +42,28 @@ iframe {
      margin: auto;
      width: 800px;
      height: 600px;
+}
+
+#socialButtons{
+     margin-left: 30px;
+     margin-top: 10px;
+     height: 25px;
+     width: auto;
+     margin-right: 10px;
+ }
+ #account{
+     border-radius: 50%;
+     margin-top: 10px;
+ }
+ #User{
+     display: grid;
+     grid-template-columns: 1fr 4fr 8fr 1fr;
+ }
+ #subscribe{
+     color: #fff;
+     background-color: rgb(204, 0, 0);
+ }
+.Info{
+     display: grid;
+     grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
  }
