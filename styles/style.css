@@ -43,9 +43,10 @@ iframe {
      padding-top: 50px;
      display: block;
      margin: auto;
-     width: 800px;
-     height: 600px;
+     width: 90%;
+     height: 30em;
 }
+
 .socialButtons{
      height: 25px;
      margin: 10px 10px auto 30px;
@@ -67,15 +68,16 @@ iframe {
      display: grid;
      grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
  }
-#tumb{
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
 
 /*Aside*/
+#Main{
+    float: left;
+    width: 65%;
+    background-color: black;
+}
 aside{
     float: right;
-    width: 100%;
+    width: 30%;
     padding-top: 50px;
     padding-left: 15px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -105,11 +107,9 @@ aside div img{
     flex-direction: row;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
-    
 }
-.ComentFromUser{
-    display: flex;
-    flex-direction: column;
+#SectionComments{
+    float: left;
 }
 section img{
     width: 40px;
@@ -119,4 +119,17 @@ section img{
 .likes{
     display: flex;
     flex-direction: row;
+}
+
+/* Responsive section*/
+@media (max-width: 800px){
+    aside p{
+        max-width: 90%;
+    }   
+    #Main{
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
 }
