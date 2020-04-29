@@ -47,13 +47,9 @@ iframe {
      height: 600px;
 }
 .socialButtons{
-     
      height: 25px;
      margin: 10px 10px auto 30px;
      width: auto;
-     /*margin-right: 10px;
-     margin-left: 30px;
-     margin-top: 10px;*/
  }
  #account{
      border-radius: 50%;
