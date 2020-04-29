@@ -1,0 +1,38 @@
+body{
+    padding-right: 70px;
+    padding-left: 70px;
+    color: #515151;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{ 
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+header img{
+    width: auto;
+    height: 20px;
+    margin-left: 15px;
+}
+#SearchBar{
+    display: grid;
+    width: 500px;
+    grid-template-columns: 4fr 1fr;
+    height: 100%
+}
+
+#SearchBar input{   
+    height: 100%;
+    padding: 0px;
+    height: 30px;
+}
+
+button{
+    float: right; 
+    height: 34px;
+    border-width: 0px;
+}
+#SearchBtn{
+    border-width: 2px;
+}
